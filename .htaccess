@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /annazon/
+
+RewriteRule ^$ index.html [L,NC]
