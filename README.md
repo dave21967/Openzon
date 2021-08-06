@@ -50,3 +50,15 @@ Il sito web sarà diviso in sezioni
 
 ### END ###
 -----------------------------------------------------
+
+------------------- GITHUB -------------------
+### 06-08-2021 ###
+File da aggiungere
+- navbar.js
+- style.css
+- navbar.css
+- index.html
+- image.css
+- README.md
+### END ###
+----------------------------------------------
