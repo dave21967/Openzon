@@ -35,15 +35,15 @@ Il sito web sarà diviso in sezioni
 
 ### TODO ###
   - Menu
-  -- Voci
-   --- Home
-   --- Chi siamo
-   --- Mission
-   --- Prodotti/Shop
-   --- Venditori (Da vedere)
-   --- Policy
-   --- Account
-   --- Privacy
+  1) Voci
+   - Home
+   - Chi siamo
+   - Mission
+   - Prodotti/Shop
+   - Venditori (Da vedere)
+   - Policy
+   - Account
+   - Privacy
 ### END ###
 
 ### DONE ###
@@ -60,5 +60,13 @@ File da aggiungere
 - index.html
 - image.css
 - README.md
+### END ###
+----------------------------------------------
+
+------------- DIARIO DI SVILUPPO -------------
+### 06-08-2021 ###
+Miglioramento della grafica
+Aggiunta delle cards "Chi siamo" e "Mission"
+Aggiunta del footer della pagina
 ### END ###
 ----------------------------------------------
