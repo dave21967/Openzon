@@ -51,22 +51,15 @@ Il sito web sarà diviso in sezioni
 ### END ###
 -----------------------------------------------------
 
-------------------- GITHUB -------------------
-### 06-08-2021 ###
-File da aggiungere
-- navbar.js
-- style.css
-- navbar.css
-- index.html
-- image.css
-- README.md
-### END ###
-----------------------------------------------
-
 ------------- DIARIO DI SVILUPPO -------------
 ### 06-08-2021 ###
 Miglioramento della grafica
 Aggiunta delle cards "Chi siamo" e "Mission"
 Aggiunta del footer della pagina
+### END ###
+
+### 09-08-2021 ###
+Aggiunta pagina "chi-siamo"
+Aggiunta pagina "registrazione"
 ### END ###
 ----------------------------------------------

@@ -2,3 +2,5 @@ RewriteEngine On
 RewriteBase /openzon/
 
 RewriteRule ^$ index.html [L,NC]
+RewriteRule ^chi-siamo$ chi-siamo.html [L,NC]
+RewriteRule ^registrati$ signup.html [L,NC]

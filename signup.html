@@ -32,37 +32,41 @@
 </header>
 <body>
     <div class="container">
-        <div class="image">
-            <h1 class="grafica-sito">Grafica sito</h1>
-        </div>
         <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
-            <div class="who-are-we">
-                <h1>Chi siamo?</h1>
+            <div class="card">
+                <h1>Registrati come venditore</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                    Itaque, quo voluptas?<br>
-                    Dolor, quia quisquam voluptate inventore odit fuga mollitia?<br>
-                    Ut vitae deleniti iusto hic ipsa, at iure?<br>
-                    Ullam, ad quod.
+                    Dovrai essere approvato dall'amministratore
                 </p>
-                <button class="button">Leggi di più</button>
+                <form style="margin: 5px;">
+                    <input type="text" class="input" id="nome" placeholder="Nome"><br><br>
+                    <input type="text" class="input" id="cognome" placeholder="Cognome"><br><br>
+                    <input type="email" class="input" id="email" placeholder="Email"><br><br>
+                    <input type="password" class="input" id="password" placeholder="Password"><br><br>
+                    <label style="color: red;" id="errore"></label>
+                    <button class="button">Registrati venditore</button>
+                </form>
             </div>
-            <div class="our-mission">
-                <h1>Il nostro obiettivo</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                    Itaque, quo voluptas?<br>
-                    Dolor, quia quisquam voluptate inventore odit fuga mollitia?<br>
-                    Ut vitae deleniti iusto hic ipsa, at iure?<br>
-                    Ullam, ad quod.
-                </p>
-                <button class="button">Leggi di più</button>
+            <div class="card">
+                <h1>Registrati come acquirente</h1>
+                <form style="margin: 5px;">
+                    <input type="text" class="input" id="nome" placeholder="Nome"><br><br>
+                    <input type="text" class="input" id="cognome" placeholder="Cognome"><br><br>
+                    <input type="email" class="input" id="email" placeholder="Email"><br><br>
+                    <input type="password" class="input" id="password" placeholder="Password"><br><br>
+                    <label style="color: red;" id="errore"></label>
+                    <button class="button">Registrati venditore</button>
+                </form>
             </div>
         </div>
     </div>
     <!-- SCRIPTS -->
     <script src="js/jquery.js"></script>
     <script src="js/navbar.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="js/app/app.js" type="text/babel"></script>
     <!-- END SCRIPTS -->
 </body>
 <hr>
